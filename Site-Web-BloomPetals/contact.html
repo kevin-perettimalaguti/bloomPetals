@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="Fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/kevin/OneDrive/Bureau/Site-Web-BloomPetals/index.html" 
+                alt="">Home</a>
+            </li>
+            <li><a href="file:///C:/Users/kevin/OneDrive/Bureau/Site-Web-BloomPetals/entreprise.html"
+                    alt="Entreprise">Entreprise</a></li>
+            <li><a href="file:///C:/Users/kevin/OneDrive/Bureau/Site-Web-BloomPetals/contact.html"
+                    alt="Contact">Contact</a></li>
+            <li><a href="file:///C:/Users/kevin/OneDrive/Bureau/Site-Web-BloomPetals/realisation.html"
+                    alt="Réalisation">Réalisation</a></li>
+
+            <section class="recherche">
+                <input type="text" placeholder="Recherche...">
+            </section>
+        </ul>
+    </nav>
+    <main>
+        <h2>Formulaire de Contact</h2>
+        <article class="formulaire">
+            <form action="/votre-page-de-traitement" method="post">
+
+                <select name="liste" id="liste">
+                    <option value="Madame">Mme</option>
+                    <option value="Monsieur">M.</option>
+                    
+                </select><br>
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="pro" name="nom" placeholder="Votre Nom" required><br>
+
+                <label for="Prénom">Prénom :</label>
+                <input type="text" id="pro" name="Prénom" placeholder="Votre Prénom" required><br>
+
+                <label for="adresse">Adresse postale :</label>
+                <input type="adresse" id="pro" name="adresse" placeholder="Code Postal"required><br>
+
+                <label class="" for="message"> Message :</label><br>
+                <textarea id="commentaire" name="message" required placeholder="Ecrivez votre demande..."></textarea><br>
+
+                
+                <input type="checkbox" id="politique" name="checkbox" placeholder=""> 
+                <label for="box">Accepter la Politique de Confidentialité </label><br>              
+
+                <input type="submit" id="bouton" value="Envoyer">
+            </form>
+        </article>        
+    </main>
+    <footer>
+        <p>&copy; 2021 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>

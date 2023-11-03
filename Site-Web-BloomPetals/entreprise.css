@@ -1,0 +1,116 @@
+body {
+    margin: auto;
+    max-width: 1400px;
+    background-image: url(images/image\ montagne\ fond\ site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav>ul {
+    border-radius: 20px;
+}
+
+
+nav>ul {
+    border-radius: solid 4px black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    padding: 8px;
+    color: black;
+    align-items: center;
+    transition: background-color 0.5s, transform 0.3s;
+
+}
+
+nav>ul>li:hover {
+
+    transform: scale(1.3);
+}
+
+nav>ul:hover {
+    transform: scale(1.1);
+}
+
+nav>ul>li>:hover {
+    color: blue;
+
+}
+
+nav>ul>li>a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.equipe>img {
+    display: flexbox;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+.photo1 {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+img:hover {
+    transform: scale(1.3);
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: monospace;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+}
+
+footer>p{
+    background-color: red;
+    padding: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0%;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
