@@ -16,7 +16,6 @@ nav>ul {
     color: black;
     align-items: center;
     transition: background-color 0.5s, transform 0.3s;
-
 }
 
 nav>ul>li:hover {
@@ -65,7 +64,7 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     font-size: 23px;
-    font-weight: 900;
+    font-weight: 900;    
 }
 
 p {
@@ -91,8 +90,6 @@ p {
     color: whitesmoke;
     font-size: 17px;
     font-weight: 800;
-
-
 }
 
 
@@ -164,12 +161,11 @@ li>a {
 }
 
 footer>p{
-    background-color: red;
+    background-color: black;
     padding: 20px;
     padding-top: 3px;
-    padding-bottom: 3px;
-    margin: 0%;
-    border-radius: 10px;
+    padding-bottom: 3px;    
+    margin: 0%;   
     text-align: center;
     color: black;
     font-size: 15px;
